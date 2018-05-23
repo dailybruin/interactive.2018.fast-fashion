@@ -95,7 +95,7 @@ gulp.task('html', () =>
 );
 
 gulp.task('images', () => {
-  gulp.src('src/images/*').pipe(gulp.dest('dev/img-up'));
+  gulp.src('src/images/*').pipe(gulp.dest('dev/img'));
 });
 
 gulp.task('scripts', () =>
